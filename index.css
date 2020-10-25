@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Nrt;
+  src: "/images/Nrt-Reg.ttf";
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #344750;
+  min-height: 500vh;
+}
+
+.paralax::after {
+  content: "";
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(transparent, #344750);
+  z-index: 111;
+  position: absolute;
+  bottom: 0;
+}
+.paralax2::after {
+  content: "";
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(transparent, #344750);
+  z-index: 111;
+  position: absolute;
+  bottom: 0;
+}
+.paralax3::after {
+  content: "";
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(transparent, #344750);
+  z-index: 111;
+  position: absolute;
+  bottom: 0;
+}
+
+.paralax {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  height: 100%;
+  width: 95%;
+
+  text-align: end;
+  text-shadow: 1px 10px 10px black;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 100;
+  font-family: Nrt;
+}
+
+.paralax img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.paralax2 {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.paralax2 .houses {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+}
+.paralax2 .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.paralax2 .men {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.paralax3 {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.paralax3 img {
+  position: absolute;
+}
+
+.paralax3 .mountain {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.paralax3 .water {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.paralax3 .grass {
+  bottom: 0;
+  height: auto;
+  width: 100%;
+}
