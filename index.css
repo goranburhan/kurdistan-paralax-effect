@@ -7,15 +7,15 @@
   margin: 0;
 }
 body {
-  background-color: #344750;
-  min-height: 500vh;
+  background-color: #000;
+  min-height: 600vh;
 }
 
 .paralax::after {
   content: "";
   height: 100px;
   width: 100%;
-  background: linear-gradient(transparent, #344750);
+  background: linear-gradient(transparent, #000);
   z-index: 111;
   position: absolute;
   bottom: 0;
@@ -24,7 +24,7 @@ body {
   content: "";
   height: 100px;
   width: 100%;
-  background: linear-gradient(transparent, #344750);
+  background: linear-gradient(transparent, #000);
   z-index: 111;
   position: absolute;
   bottom: 0;
@@ -33,7 +33,16 @@ body {
   content: "";
   height: 100px;
   width: 100%;
-  background: linear-gradient(transparent, #344750);
+  background: linear-gradient(transparent, #000);
+  z-index: 111;
+  position: absolute;
+  bottom: 0;
+}
+.paralax4::after {
+  content: "";
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(transparent, #000);
   z-index: 111;
   position: absolute;
   bottom: 0;
@@ -121,6 +130,39 @@ h1 {
 }
 
 .paralax3 .grass {
+  bottom: 0;
+  height: auto;
+  width: 100%;
+}
+
+.paralax4 {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.paralax4 img {
+  position: absolute;
+}
+
+.paralax4 .starrynight {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.paralax4 .moon {
+  top: 150px;
+  left: 0;
+  width: 150px;
+}
+.paralax4 .slemani {
+  bottom: 150px;
+  width: 100%;
+}
+
+.paralax4 .branches {
   bottom: 0;
   height: auto;
   width: 100%;
