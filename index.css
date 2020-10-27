@@ -10,6 +10,9 @@ body {
   background-color: #000;
   min-height: 600vh;
 }
+#mobileViewMessage {
+  display: none;
+}
 
 .paralax::after {
   content: "";
@@ -166,4 +169,20 @@ h1 {
   bottom: 0;
   height: auto;
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    min-height: 100vh;
+  }
+  body > * {
+    display: none;
+  }
+  #mobileViewMessage {
+    display: block;
+  }
 }
